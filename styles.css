@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 20px;
+  transition: all 0.3s ease;
+}
+
+body.dark {
+  background-color: #222;
+  color: #eee;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+#charCount {
+  float: right;
+  font-size: 0.9em;
+  color: #666;
+}
+
+#successMessage {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
